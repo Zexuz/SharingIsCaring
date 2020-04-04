@@ -1,0 +1,27 @@
+{
+  "name": "Cookie API Test Extension",
+  "version": "0.8",
+  "description": "Testing Cookie API",
+  "permissions": [
+    "cookies",
+    "declarativeContent",
+    "tabs",
+    "http://localhost:8080/*",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "icons": {
+    "16": "cookie.png",
+    "48": "cookie.png",
+    "128": "cookie.png"
+  },
+  "page_action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "manifest_version": 2
+}
